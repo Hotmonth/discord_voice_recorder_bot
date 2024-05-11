@@ -1,7 +1,11 @@
 package main
 
+import (
+	"github.com/Hotmonth/discord_voice_recorder_bot/internal/config"
+)
+
 func main() {
-	// TODO: Init config
+	cfg := config.MustLoad()
 
 	// TODO: Init logger
 
